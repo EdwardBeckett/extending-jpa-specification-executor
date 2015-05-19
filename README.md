@@ -4,6 +4,8 @@
 
 The [JpaSpecificationExecutor](http://docs.spring.io/spring-data/jpa/docs/current/api/org/springframework/data/jpa/repository/JpaSpecificationExecutor.html) has only a limited set of search methods. Sometimes we want to create complex queries which are not supported out of the box.
 In this post I will describe how to add generic behaviour to our repositories without breaking the Spring Data way of working. 
+
+Code is available on [github](https://github.com/Spring-Squad/extending-jpa-specification-executor).
 ## Problem Description ##
 
 Lets assume the following domain model:
